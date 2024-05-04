@@ -1,0 +1,27 @@
+.custom-navbar {
+    background-color: #0056b3; /* A deep blue shade */
+    border-bottom: 3px solid #ffc107; /* A bright yellow border for contrast */
+}
+
+.navbar-brand-custom {
+    color: #fff; /* White text for the brand */
+    font-weight: bold; /* Make the brand text bold */
+    font-size: 1.5rem; /* Larger font size for the brand */
+}
+
+.nav-link-custom {
+    color: #ffffffcc; /* Slightly transparent white */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-link-custom:hover, .navbar-brand-custom:hover {
+    color: #ffffff; /* Solid white on hover */
+    text-decoration: none; /* No underline */
+}
+
+@media (max-width: 992px) {
+    .navbar-toggler {
+        border-color: #ffc107; /* Toggler gets the same color as the border */
+    }
+}
